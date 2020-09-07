@@ -22,11 +22,11 @@ const setRandomColor = () => {
 };
 
 let timerId = null;
-let isColorChangeOn = false;
+// let isColorChangeOn = false;
 
 
 function changeColorStart(e){
-    isColorChangeOn = true;
+    const isColorChangeOn = true;
     if(isColorChangeOn){
         refs.startButton.setAttribute('disabled', 'true');
     };
